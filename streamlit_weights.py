@@ -209,7 +209,7 @@ def draw_valve_system(system):
     return fig
 
 def main():
-    st.title("Valve System Simulator")
+    st.title("Neural Network Weights Simulator")
     
     # Configuration inputs
     col1, col2 = st.columns(2)
@@ -222,7 +222,7 @@ def main():
     system = ValveSystem(initial_amount, num_layers)
     
     # Create select sliders for valve percentages
-    st.subheader("Valve Percentages")
+    st.subheader("Valve Percentages (Weights)")
     
     # Define steps for the select slider
     percent_options = list(range(0, 101, 5))  # [0, 5, 10, ..., 95, 100]
