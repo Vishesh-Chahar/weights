@@ -1,6 +1,3 @@
-I'll help create a README.md file that explains the valve system simulator project. Here's a comprehensive README:
-
-```markdown
 # Valve System Simulator
 
 A Streamlit-based interactive visualization tool for simulating and analyzing fluid flow through a configurable network of valves.
